@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "721752889820",
+    "project_id": "kin-music",
+    "storage_bucket": "kin-music.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721752889820:android:188f791ed91afa19559719",
+        "android_client_info": {
+          "package_name": "kurztech.com.kin_music_player_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721752889820-cp32686aacpn6483ld6ar1echh89hgia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAukf7UqRvF3f1kTG6USCiPy6G1YeuFv7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721752889820-cp32686aacpn6483ld6ar1echh89hgia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

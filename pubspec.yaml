@@ -1,0 +1,99 @@
+name: kin_music_player_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^0.22.0
+  modal_bottom_sheet: ^2.0.0
+  form_field_validator: ^1.0.1
+  json_annotation: ^4.4.0
+  http: ^0.13.4
+  provider: ^6.0.1
+  shared_preferences: ^2.0.11
+  audio_video_progress_bar: ^0.10.0
+  cached_network_image: ^3.2.0
+  infinite_scroll_pagination: ^3.1.0
+  audio_service: ^0.18.3
+  firebase_messaging: ^11.4.1
+  firebase_core: ^1.17.1
+  firebase_auth: ^3.3.20
+  flutter_facebook_auth: ^4.0.1
+  flutter_html: ^2.2.1
+  url_launcher: ^6.0.18
+  audio_wave: ^0.1.0
+  flutter_spinkit: ^5.1.0
+  flutter_native_splash: ^2.0.3+1
+  assets_audio_player: ^3.0.4+3
+  connectivity_plus: ^2.2.1
+  fluttertoast: ^8.0.9
+  email_validator: ^2.0.1
+  font_awesome_flutter:
+  pinput: ^2.2.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.11
+  json_serializable: ^6.2.0
+  flutter_lints: ^1.0.0
+
+flutter_native_splash:
+  background_image: "assets/images/kin_background.png"
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/ca/
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/muli/Muli.ttf
+        - asset: assets/fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/muli/Muli-Light.ttf
+          weight: 300
+    - family: Hurry
+      fonts:
+        - asset: assets/fonts/Hurricane-Regular.ttf
+    - family: Nokia
+      fonts:
+        - asset: assets/fonts/NokiaPureHeadline_Bd.ttf
+
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
